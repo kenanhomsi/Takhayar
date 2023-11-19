@@ -5,7 +5,7 @@ let Products=[
     {
         id:1,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'1ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -48,7 +48,7 @@ let Products=[
     }, {
         id:2,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'2ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -91,7 +91,7 @@ let Products=[
     }, {
         id:3,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'3ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -134,7 +134,7 @@ let Products=[
     }, {
         id:4,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'4ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -177,7 +177,7 @@ let Products=[
     }, {
         id:5,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'5ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -220,7 +220,7 @@ let Products=[
     }, {
         id:6,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'6ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -263,7 +263,7 @@ let Products=[
     }, {
         id:7,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'7ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -306,7 +306,7 @@ let Products=[
     }, {
         id:8,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'8ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -349,7 +349,7 @@ let Products=[
     }, {
         id:9,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'9ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -392,7 +392,7 @@ let Products=[
     }, {
         id:10,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'10ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -435,7 +435,7 @@ let Products=[
     }, {
         id:11,
         ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
-        soundImageUrl:'/images/Sound.png',
+        soundImageUrl:'.//images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'11ابل هاتف ايفون برو ماكس',
         newPrcie:200,
@@ -501,7 +501,7 @@ for(let x=0;x<Products.length;x++){
         notediv.setAttribute('class','note');
 
         let noteIMage=document.createElement('img');
-        noteIMage.setAttribute('src','/images/hotspot.jpg');
+        noteIMage.setAttribute('src','.//images/hotspot.jpg');
         noteIMage.setAttribute('alt',`hotspot`);
         notediv.innerHTML=`${Products[x].numberOfCustomer} عميل يطلبون هذا المنتج الان ` 
         notediv.appendChild(noteIMage);
