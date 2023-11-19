@@ -1124,7 +1124,7 @@
   }
   /*end sound element */
   .Enter_mobile_number{
-    display: none;
+    display: block;
   }
   /*.Shopping_cart{
     display: block;
