@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dosis:wght@300;400;500;600;800&family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Oxygen:wght@300;400&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,800&family=Rubik:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/Requests.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+        <header dir="rtl">
+            <div class="left">
+                <a href="/index.html">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="rigth">
+                    <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <a href="/Requests.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+    
+        </header>
+        <div class="Requests_page" dir="rtl">
+            <div class="Requests_container">
+                    <h3>الطلبات (<span>3</span>)</h3>
+                    <div class="Requests_box">
+                          <div class="Requests_box_header">
+                                        <div class="left">
+                                          <button class="all_results">جميع النتائج</button>
+                                          <button class="all_results">موافقه</button>
+                                          <button class="all_results">رفض</button>
+                                          <button class="all_results">قيد مراجعه</button>
+                                        </div>
+                                        <div class="right">
+                                          <input type="text" class="search" placeholder="بحث" />
+                                        </div>
+    
+                          </div>
+                          <div class="Requests_box_body">
+                            <table dir="rtl">
+                                <tr>
+                                    <th>رقم الطلب</th>
+                                    <th>سعر الاصلي </th>
+                                    <th>سعر عرضك </th>
+                                    <th>حاله</th>
+                                    <th>تاريخ</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                                <tr>
+                                    <td>5634......3245</td>
+                                    <td>200 ريال</td>
+                                    <td>150 ريال</td>
+                                    <td class="pending">قيد الانتظار</td>
+                                    <td class="data">  12نوفمبر 2023, 3:20 ص</td>
+                                    <td><button>::</button></td>
+                                </tr>
+                                <tr>
+                                    <td>5634......3245</td>
+                                    <td>200 ريال</td>
+                                    <td>150 ريال</td>
+                                    <td class="pending">قيد الانتظار</td>
+                                    <td class="data"> 12نوفمبر 2023, 3:20 ص</td>
+                                    <td><button>::</button></td>
+                                </tr>
+                                <tr>
+                                    <td>5634......3245</td>
+                                    <td>200 ريال</td>
+                                    <td>150 ريال</td>
+                                    <td class="pending">قيد الانتظار</td>
+                                    <td class="data"> 12نوفمبر 2023, 3:20 ص</td>
+                                    <td><button>::</button></td>
+                                </tr>
+                                <tr>
+                                    <td>5634......3245</td>
+                                    <td>200 ريال</td>
+                                    <td>150 ريال</td>
+                                    <td class="pending">قيد الانتظار</td>
+                                    <td class="data"> 12نوفمبر 2023, 3:20 ص</td>
+                                    <td><button>::</button></td>
+                                </tr>
+                                <tr>
+                                    <td>5634......3245</td>
+                                    <td>200 ريال</td>
+                                    <td>150 ريال</td>
+                                    <td class="pending">قيد الانتظار</td>
+                                    <td class="data"> 12نوفمبر 2023, 3:20 ص</td>
+                                    <td><button>::</button></td>
+                                </tr>
+                            </table>
+
+                          </div>
+                          <div class="Requests_box_footer">
+                            <button>صفحه سابقه</button>
+                            <div>
+                                <button class="button_active">1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>4</button>
+                                <button>5</button>
+                            </div>
+                            <button>صفحه تاليه</button>
+                          </div>
+
+                          <!-- Empty requests -->
+                          <div class="Empty_requests">
+                              <div class="Empty_requests_container">
+                                    <img src="./images/shopping bag-add.png" alt="">
+                                    <h3>ليس لديك طلبات سابقه</h3>
+                                    <p>عندما تشتري منتجا  او ترسل لنا عرض سوف يظهر طلبك في هذه القائمه و يمكنك متابعه تقدم طلبك او تغيير قيمه عرضاو ارسال عرض جديد  في حاله الرفض.</p>
+                                    <button>تسوق الاان</button>
+                                </div>
+
+                          </div>
+                          <!-- Cancelling order -->
+                          <div class="Cancelling_order" dir="rtl">
+                            <div class="Cancelling_order_container">
+                                <div> <h3>الغاء الطلب</h3> <span><i class="fa-solid fa-xmark"></i></span></div>
+                                <div class="text">
+                                    <p>هل ترغب فعلاً في إلغاء الطلب؟ قبل أن تقرر الاستمرار في هذا الإجراء، يُرجى مراجعة التفاصيل بعناية.إذا كنت متأكداً من رغبتك في إلغاء الطلب، يُرجى النقر على "تأكيد الإلغاء" أدناه. إذا كنت غير متأكد أو ترغب في الاستفسار عن أي شيء، يُرجى الاتصال بفريق الدعم لدينا. نحن هنا للمساعدة والإجابة على أي أسئلة قد تكون لديك.</p>
+                                    <div class="btns">
+                                        <button class="send">تاكيد الالغاء</button>
+                                        <button class="Back">رجوع</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- request_successfully_cancelled -->
+                        <div class="request_successfully_cancelled" dir="rtl">
+                            <div class="request_successfully_cancelled_container">
+                                <img src="/images/check-circle.png" alt="">
+                                <div> <h3>تم الغاء طلبك بنجاح </h3> <span><i class="fa-solid fa-xmark"></i></span></div>
+                                <div class="text">
+                                    <p>لقد تم إلغاء طلبك بنجاح. إذا كانت لديك أي استفسارات أو تحتاج إلى مساعدة إضافية، فلا تتردد في الاتصال بفريق خدمة العملاء لدينا.</p>
+                                    <div class="btns">
+                                        <button class="send">العوده الي طلباتي</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Order_details -->
+                        <div class="Order_details" dir="rtl">
+                            <div class="Order_details_container">
+                                <div> <h3>تفاصيل الطلب</h3> <span><i class="fa-solid fa-xmark"></i></span></div>
+                                <div class="body">
+                                    <div class="info">
+                                        <div dir="ltr"><span>5505--554</span> <span>رقم الطلب</span></div>
+                                        <div dir="ltr"><span>5</span> <span>عدد المنتجات</span></div>
+                                        <div dir="ltr"><span dir="rtl">2000 ريال</span> <span>سعر الاصلي الكامل</span></div>
+                                        <div dir="ltr"><span dir="rtl">1500 ريال</span> <span>سعر  المعروض الكامل</span></div>
+                                        <div dir="ltr"><span> 12نوفمبر 2023, 3:20 ص</span> <span>تاريخ الطلب</span></div>
+                                        <div dir="ltr"><span>بل انتظار</span> <span>حاله</span></div>
+                                    </div>
+                                    <div class="products">
+                                        <div class="header"><h4>منتجات (<span>3</span>)</h4></div>
+                                        <div class="product">
+                                            <div class="left">
+                                                <div><span>500 ريال</span>  سعر:</div>
+                                                <div><span>2</span> كميه :</div>
+                                                <div><span>بل انتظار</span> حاله :</div>
+                                            </div>
+                                            <div class="right">
+                                                    <img src="./images/image + sound.png" alt="image">
+                                                    <div>
+                                                        <h3>ابل هاتف ايفون برو ماكس</h3>
+                                                        <div><span>65</span>تقييم <div dir="ltr">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                       <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        </div></div>
+                                                        <a href="#">تفاصيل المنتج</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="left">
+                                                <div><span>500 ريال</span>  سعر:</div>
+                                                <div><span>2</span> كميه :</div>
+                                                <div><span>بل انتظار</span> حاله :</div>
+                                            </div>
+                                            <div class="right">
+                                                    <img src="./images/image + sound.png" alt="image">
+                                                    <div>
+                                                        <h3>ابل هاتف ايفون برو ماكس</h3>
+                                                        <div><span>65</span>تقييم <div dir="ltr">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                       <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        </div></div>
+                                                        <a href="#">تفاصيل المنتج</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="left">
+                                                <div><span>500 ريال</span>  سعر:</div>
+                                                <div><span>2</span> كميه :</div>
+                                                <div><span>بل انتظار</span> حاله :</div>
+                                            </div>
+                                            <div class="right">
+                                                    <img src="./images/image + sound.png" alt="image">
+                                                    <div>
+                                                        <h3>ابل هاتف ايفون برو ماكس</h3>
+                                                        <div><span>65</span>تقييم <div dir="ltr">
+                                                            <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                       <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        </div></div>
+                                                        <a href="#">تفاصيل المنتج</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="left">
+                                                <div><span>500 ريال</span>  سعر:</div>
+                                                <div><span>2</span> كميه :</div>
+                                                <div><span>بل انتظار</span> حاله :</div>
+                                            </div>
+                                            <div class="right">
+                                                    <img src="./images/image + sound.png" alt="image">
+                                                    <div>
+                                                        <h3>ابل هاتف ايفون برو ماكس</h3>
+                                                        <div>(62)تقييم</div>
+                                                        <a href="#">تفاصيل المنتج</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+    
+            </div>
+        </div>
+    
+
+
+        <footer>
+            <div class="left">
+                <p>اشترك في خدمه رسائل</p>
+                <div>
+                    <button>اشترك</button>
+                    <input type="text" name="" id="" placeholder="ايميلك" dir="rtl">
+                </div>
+            </div>
+            <div class="right">
+                <img src="./images/footer_logo.png" alt=" logo">
+                <p dir="rtl">جميع الحقوق محفوظة لدى تخير 2023 ©</p>
+                <div class="social_media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+    
+        </footer>
+    <script src="https://kit.fontawesome.com/b5e12a678f.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
