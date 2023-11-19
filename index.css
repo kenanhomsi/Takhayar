@@ -1123,9 +1123,9 @@
     }
   }
   /*end sound element */
-  .Enter_mobile_number{
-    display: block;
-  }
+  /* .Enter_mobile_number{
+    display: none;
+  } */
   /*.Shopping_cart{
     display: block;
   }
