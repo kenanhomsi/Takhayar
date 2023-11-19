@@ -47,7 +47,7 @@ let Products=[
         ]
     }, {
         id:2,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'2ابل هاتف ايفون برو ماكس',
@@ -90,7 +90,7 @@ let Products=[
         ]
     }, {
         id:3,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'3ابل هاتف ايفون برو ماكس',
@@ -133,7 +133,7 @@ let Products=[
         ]
     }, {
         id:4,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'4ابل هاتف ايفون برو ماكس',
@@ -176,7 +176,7 @@ let Products=[
         ]
     }, {
         id:5,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'5ابل هاتف ايفون برو ماكس',
@@ -219,7 +219,7 @@ let Products=[
         ]
     }, {
         id:6,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'6ابل هاتف ايفون برو ماكس',
@@ -262,7 +262,7 @@ let Products=[
         ]
     }, {
         id:7,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'7ابل هاتف ايفون برو ماكس',
@@ -305,7 +305,7 @@ let Products=[
         ]
     }, {
         id:8,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'8ابل هاتف ايفون برو ماكس',
@@ -348,7 +348,7 @@ let Products=[
         ]
     }, {
         id:9,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'9ابل هاتف ايفون برو ماكس',
@@ -391,7 +391,7 @@ let Products=[
         ]
     }, {
         id:10,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'10ابل هاتف ايفون برو ماكس',
@@ -434,7 +434,7 @@ let Products=[
         ]
     }, {
         id:11,
-        ProductImageUrl:'/images/image + sound.png',
+        ProductImageUrl:'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg',
         soundImageUrl:'/images/Sound.png',
         numberOfCustomer:20,
         ProductTilte:'11ابل هاتف ايفون برو ماكس',
